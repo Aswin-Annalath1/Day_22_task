@@ -1,0 +1,42 @@
+.border{
+    border: 1px solid navy;
+    width: 400px;
+    padding: 20px;
+    margin-top: 150px;
+    border-radius: 10px;
+    background-color: azure;
+    margin-bottom: 170px;
+}
+.App{
+    display: flex;
+    background-color: rgb(55, 185, 255);
+    gap: 50px;
+    justify-content:center;  
+}
+.top{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(189, 202, 202);
+}
+.box{
+    color: azure;
+    padding-left: 169px;
+    padding-right: 167px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: rgb(55, 185, 255);
+}
+.border:hover{
+    border-color: black;
+    transition: ease 0.4s;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.box:hover{
+    background-color: rgb(19, 133, 221);
+    border-color: rgb(35, 106, 237);
+    transition: ease 0.4s;
+    transform: scale(1.01);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
